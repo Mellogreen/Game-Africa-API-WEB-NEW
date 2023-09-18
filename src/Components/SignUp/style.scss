@@ -1,0 +1,32 @@
+.container-signup{
+    background-image: url("https://res.cloudinary.com/dlpmboa2r/image/upload/v1689171094/Sign-up_ocxpbk.png");
+    height: 98%;
+    min-height: 89vh;
+    background-size: cover;
+    background-position: center;
+}
+
+    .signup-group{
+        border: solid;
+        border-radius: 8px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 40px;
+        padding: 10px 50px 10px 50px;
+        background-color: whitesmoke;
+    }
+    
+    .game-logo{
+       max-width: 40%;
+    }
+
+    .form-lable-new{
+        display: flex;
+        justify-content: left;
+    }
+
+.terms{
+    text-align: left;
+}

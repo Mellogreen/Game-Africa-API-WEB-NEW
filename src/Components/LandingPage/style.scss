@@ -1,0 +1,213 @@
+//section one styling 
+
+.section-one{
+    background-image: url("https://res.cloudinary.com/dlpmboa2r/image/upload/v1689435158/Background_1_h8kdgq.png");
+    height: 100%;
+    min-height: 90vh;
+    background-size:cover;
+    background-position: top;
+}
+
+.enjoy{
+    display: flex;
+    justify-content: space-around;
+
+
+img{
+    margin-top: 40px;
+    max-width: 100%;
+}
+.word{
+    color: whitesmoke ;
+    text-align: left;
+    margin: 180px 0px 0px 8px;
+
+    .svg-img img{
+        max-width: 30%;
+        padding-right: 20px;
+        margin-top: 0px;
+    }
+}
+}
+ 
+//section two styling 
+
+.section-two{
+    background-image: url("https://res.cloudinary.com/dlpmboa2r/image/upload/v1689435419/Background_2_apnism.png");
+    height: 100%;
+    min-height: 90vh;
+    background-size:cover;
+    background-position: top;
+
+
+    .word-two{
+        color: whitesmoke;
+        text-align: left;
+        justify-content: left;
+        padding-top: 40px;
+    }
+}
+
+.card-container{
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+
+   .fort{
+     margin: 20px 40px 40px 0px;
+}   
+}
+
+.card-body{
+    text-align: left;
+    color: white;
+}
+
+.btn-custom{
+    background-color:rgb(66,170,0) ;
+    color: white;
+    padding: 5px 30px 5px 30px;
+}
+
+
+//section three styling 
+
+.section-three{
+    background-image: url("https://res.cloudinary.com/dlpmboa2r/image/upload/v1689434996/Background_3_dc9vhb.png");
+    height: 100%;
+    min-height: 90vh;
+    background-size:cover;
+    background-position: top;
+
+    .word-three{
+        color: whitesmoke;
+        text-align: left;
+        justify-content: left;
+        padding-top: 40px;
+    }
+
+    .card{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0px 100px 0px;
+    }
+    .card-body{
+        color: black;
+        text-align: left;
+    }
+
+    .extra{
+        margin-top: 40px;
+        .card{
+            border-radius: 0px 8px 8px 0px;
+            border: solid 0;
+         .card:hover{
+            background-color: rgb(66,170,0);
+         }   
+            a{
+                text-decoration: none;
+                text-align: left;
+                margin: 20px;
+                color: black; 
+            } 
+        }
+        }
+
+    .info{
+        text-align: right;
+        text-decoration: none;
+
+        a{
+            text-decoration: none;
+            padding-right: 20px;
+            color: black;
+        }
+    }
+    
+}
+
+//section four styling 
+
+
+.section-four{
+    background-image: url("https://res.cloudinary.com/dlpmboa2r/image/upload/v1689526991/Background_4_uyiplo.png");
+    height: 100%;
+    min-height: 90vh;
+    background-size:cover;
+    background-position: top;
+
+    .word-four{
+        color: whitesmoke;
+        text-align: left;
+        justify-content: left;
+        padding-top: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+.disp{
+    display: flex;
+    justify-content: start;
+     
+}
+
+.ac-disgn{
+    min-width: 45%;
+    max-width: 45%;
+}
+.domimo{
+    max-width: 20%;
+    display: flex;
+    
+}
+.accordion-item{
+    margin: 10px 0px 10px 0px;
+  
+}
+
+//section five styling 
+
+.section-five{
+    background-image: url("https://res.cloudinary.com/dlpmboa2r/image/upload/v1689675799/Background_5_mgizdl.png");
+    height: 100%;
+    min-height: 75vh;
+    background-size:cover;
+    background-position: top;
+
+    .word-five{
+        color: white;
+        text-align: left;
+        max-width: 60%;
+        margin-top: 40px;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.info-two{
+    color: white;
+    margin-top: 50px;
+    min-width: 65%;
+    text-align: left;
+
+    #passwordHelpBlock{
+        color: white;
+    }
+    .info-three{
+        text-align: right;
+    }
+}
+
+//footer 
+
+footer{
+    background-color: rgb(13,33,0);
+
+    .container{
+        color: white;
+        text-align: left;
+        padding: 15px 0px 15px 0px;
+    }
+}

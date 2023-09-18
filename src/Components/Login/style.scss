@@ -1,0 +1,60 @@
+
+.container-login{
+background-image: url("https://res.cloudinary.com/dlpmboa2r/image/upload/v1689171094/Sign-up_ocxpbk.png");
+height: 100%;
+min-height: 89vh;
+background-size: cover;
+background-position: center;
+
+
+}
+
+.group{
+    border: solid;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 20px;
+    padding: 10px 50px 10px 50px;
+    background-color: whitesmoke;
+}
+
+.game{
+  max-width: 50%;
+  margin-top: 10px;
+}
+
+
+.form-lable{
+    display: flex;
+    justify-content: left;
+}
+.forget{
+    display: flex;
+    justify-content: space-between;
+}
+.grin{
+    color: rgb(66,170,0) ;
+}
+
+
+.btn-custom-two{
+    background-color: rgb(66,170,0); 
+    padding: 10px 170px 10px 170px;
+    color: white;
+}
+ 
+.link-two a{
+    text-decoration: none;
+    color: rgb(66,170,0);
+}
+
+.lastline{
+    display: flex;
+    justify-content: left;
+    // margin-right: 2px;
+}
+
+
